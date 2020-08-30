@@ -1,0 +1,31 @@
+@model Cliente
+@{
+    ViewData["Title"] = "Fale Conosco";
+}
+<div id="linkParaOFreteGratis" style= "margin-top:80px;">
+    <h3>FRETE GRATIS PARA TODOS OS ITENS DA LISTA </h3>
+</div>
+<form method="POST">
+        
+        <div class="form">
+            <div class="containerForm">
+                <div class="titulo">
+                        <h1>Entre em contato</h1>
+                </div>
+                <input type="text" placeholder="nome" asp-for="Nome">
+                <input type="e-mail" placeholder="e-mail" asp-for="Email">
+                <textarea  id="Mensagem" cols="30" rows="10" asp-for="Mensagem" placeholder="Digite seu texto..." ></textarea>
+                <button type="submit" class="btn">enviar</button>
+            </div>
+        </div>        
+</form>
+
+<div id="faixaMarcas">
+            <h1>NOSSAS MARCAS</h1>
+            <div class="containerdasMarcas">
+                <div class="circuloDeMarca"><a href=""><img src="/img/1280px-Adidas_Logo.svg.png" alt=""></a></div>
+                <div class="circuloDeMarca"><a href=""><img src="/img/Nike-symbol-vector-400x400.png" alt=""></a></div>
+                <div class="circuloDeMarca"><a href=""><img src="/img/Oakley_logo.svg.png" alt=""></a></div>
+                <div class="circuloDeMarca"><a href=""><img src="/img/quiksilver-logo-1.png" alt=""></a></div>
+            </div>
+        </div>

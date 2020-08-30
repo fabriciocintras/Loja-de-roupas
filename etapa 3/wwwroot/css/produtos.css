@@ -1,0 +1,47 @@
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.container
+{ 
+   
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.container h1
+{
+   font-size: 2em;
+   padding: 20px 0;
+   margin: 0 0 0 120px;
+   align-self: start;
+}
+.containerConteudo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.containerImagem
+{
+    width: 280px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.containerImagem img{
+    width: 100%;
+    margin: 0 auto;
+}
+.descricaoProduto
+{
+    padding: 2px 0 5px 2px;
+}

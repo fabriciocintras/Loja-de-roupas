@@ -1,0 +1,42 @@
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+.paginaDeCompra{
+    
+    display: flex;
+ 
+}
+.produtoDetalhebg{
+    display: flex;
+}
+.produtoDetalhebg p{
+    font-size: 1.2em;
+}
+.produtoImagembg{
+    display: flex;
+}
+    .produtoImagem{
+        width: 70%;
+        margin: 0 auto;
+    }
+        .produtoImagem img{
+            width: 100%; 
+        }
+.produtoPagamentobg{
+    display: flex;
+}
+.produtoPagamento p{
+ font-size: 1.2em;
+ text-align: left;
+}
+.linksDeAcesso{
+    padding-top: 110px;
+    color:#2D1E2F ;
+    width: 100%;
+    height: 80px;
+    font-size: 1em;
+}
+.linksDeAcesso a{
+    color:#2D1E2F ;
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+@model Usuario
+@{
+    ViewData["Title"]="Cadastro de usuario";
+}
+<div id="linkParaOFreteGratis" style= "margin-top:80px;">
+    <h3>FRETE GRATIS PARA TODOS OS ITENS DA LISTA </h3>
+</div>
+
+<form method="POST">
+    <div class="form">
+        <div class="containerForm">
+             <div class="titulo">
+                        <h1>Cadastro de Usuario</h1>
+                </div>
+            <input type="text" placeholder="nome" asp-for="Nome">
+            <input type="text" placeholder="Login" asp-for="Login">
+            <input type="e-mail" placeholder="Senha" asp-for="Senha">
+            <input type="text" placeholder="Tipo" asp-for="Tipo">
+            <button type="submit" class="btn">Cadastrar</button>
+        </div>
+    </div>
+</form>

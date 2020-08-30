@@ -1,0 +1,50 @@
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+
+
+#bannerPromocao{
+    position: relative;
+    min-width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/imagensProdutos/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#linkParaOFreteGratis{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: auto;
+    text-align: center;
+    background-color: #FCF6B1;
+}
+
+#LinkParaOsProdutosEmOfertaDoBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#botaoBannerPromocao{
+    min-width: 250px;
+    
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    color: wheat;
+    font-weight: bolder;
+    background: #000;
+}
+#LinkParaOsProdutosEmOfertaDoBanner h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+#LinkParaOsProdutosEmOfertaDoBanner h1{
+    font-size: 100px;
+    font-weight: 700;
+}

@@ -1,0 +1,32 @@
+@model IEnumerable<itemPedido>
+
+
+<div id="carrinho">
+    <h2 > Pedido </h2>
+
+    <table class="tabela">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Quantidade</th>
+                <th>Tamanho</th>
+                <th>Valor</th>
+            </tr>
+   </thead>
+   <tbody>
+       @foreach(itemPedido a in Model)
+       {
+       <tr>
+           <td>@a.Descricao</td>
+           <td>@a.Quantidade</td>
+           <td>@a.Tamanho</td>
+           <td>@a.Valor</td>
+       </tr>
+       }
+       
+   </tbody>
+   
+</table>
+    <h2 >Valor Total: @ViewBag.Total R$</h2>
+    <a asp-action="Produtos">Cadastrar novo pedido</a>
+</div>

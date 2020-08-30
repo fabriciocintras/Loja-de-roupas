@@ -1,0 +1,67 @@
+/*  CORES DO PROGETO:
+    color:#E3170A  vermelho
+    color:#A9E5BB azul claro
+    color:#FCF6B1 bege
+    color:#F7B32B amarelo
+    color:#2D1E2F roxo escuro menu*/
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+/*INICIO DO MENU*/
+
+.navegacao{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color:#2D1E2F;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao ul li{
+    padding-right: 20px;
+    color: rgb(7, 93, 168);
+}
+.navegacao ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputmenu{
+    border-radius: 23px;
+    width: 350px;
+    height: 25px;
+    border: none;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+/*FIM DO MENU*/
+/*INICIO RODAPE*/
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #2D1E2F;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 100;
+    font-size: 14px;
+}
+

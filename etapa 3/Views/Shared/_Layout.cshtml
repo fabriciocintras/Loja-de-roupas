@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Http
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bannerPromocao.css">
+    <link rel="stylesheet" href="~/css/faixaPromocao.css">
+    <link rel="stylesheet" href="~/css/faixaMarcas.css">
+    <link rel="stylesheet" href="~/css/produtoDetalhe.css">
+    <link rel="stylesheet" href="~/css/faleconosco.css">
+    <link rel="stylesheet" href="~/css/produtos.css">
+     <link rel="stylesheet" href="~/css/carrinho.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <title>@ViewData["Title"] - Home</title>
+    
+</head>
+<body>
+     <header>
+          
+        <nav class="navegacao">
+            <ul>
+                <li class="logo">Fabricio Alves</li>
+                <li><input type="text" placeholder="pesquise seu produto" class="inputmenu"></li>
+                <li ><a asp-controller="Home" asp-action="Index">home</a></li>
+                <li ><a asp-controller="Home" asp-action="Produtos" >produtos</a></li>
+                <li ><a asp-controller="Home" asp-action="FaleConosco" >fale conosco</a></li>
+                <li ><a asp-controller="Usuario" asp-action="Login" >Login</a></li>
+                <li>
+                    @if(Context.Session.GetInt32("idUsuario") != null)
+                {
+                <span>Olá @Context.Session.GetString("nomeUsuario")<a asp-controller="Usuario" asp-action="Logout"> sair </a></span>
+                }
+                </li>
+                
+                <li ><a asp-controller="Home" asp-action="carrinho" >Carrinho</a></li>
+            </ul>
+              
+        </nav>
+       
+    </header>
+    
+    <div>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+     <footer class="rodape">
+        <p>Copyright ©2020 - 2020 www.fabricioalves.com.br, TODOS OS DIREITOS RESERVADOS</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+#faixaMarcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F7B32B;
+    
+}
+#faixaMarcas h1{
+    font-size: 28px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+
+}
+.containerdasMarcas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+}
+.circuloDeMarca{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circuloDeMarca img{
+    width: 70%;
+    box-sizing: border-box;
+    
+}

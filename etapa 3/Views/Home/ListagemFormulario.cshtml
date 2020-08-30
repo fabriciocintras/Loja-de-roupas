@@ -1,0 +1,24 @@
+@model IEnumerable<Cliente>
+
+<h2  style="text-align:center;padding-top:100px;"> Mensagem enviada: </h2>
+<table  style="margin:0 auto; text-align:left; width:600px;">
+   <thead>
+       <tr>
+           <th>Nome</th>
+           <th>Email</th>
+           <th>Mensagem</th>
+       </tr>
+   </thead>
+   <tbody>
+       @foreach(Cliente a in Model)
+       {
+       <tr>
+           <td>@a.Nome</td>
+           <td>@a.Email</td>
+           <td>@a.Mensagem</td>
+       </tr>
+       }
+       
+   </tbody>
+   
+</table>

@@ -1,0 +1,77 @@
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+
+#faixaPromocao{
+    max-width: 100%;
+    height: 150px;
+    background: #fff;
+    display: flex;
+    padding: 50px 0;
+    
+}
+.boxPromocao{
+    display: flex;
+    height: 150px;
+    width: 33%;
+}
+#boxPromocaoIconeCamisa img{
+    max-width: 30%;
+}
+#boxPromocaoIconeCamisa{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#boxPromocaoTextoCamisa{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right:1px solid black;
+}
+
+#boxPromocaoIconesapato img{
+    width: 30%;
+}
+#boxPromocaoIconesapato{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#boxPromocaoTextosapato{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:5px;
+    border-right:1px solid black;
+}
+#boxPromocaoTextoLeveMaisPagueMenos{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:5px ;
+}
+
+#boxPromocaoIconeLeveMaisPagueMenos img{
+    width: 30%;
+}
+#boxPromocaoIconeLeveMaisPagueMenos{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:5px ;
+
+}

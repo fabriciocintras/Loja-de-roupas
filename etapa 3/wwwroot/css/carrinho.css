@@ -1,0 +1,28 @@
+html,body{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+#carrinho{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    padding-top: 110px;
+}
+.tabela{
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+}
+.tabela thead{
+    border: 1px solid silver;
+    display: flex;  
+}
+.tabela thead tr , tbody tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
