@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\etapa 3.csproj",
+  "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,93 +14392,93 @@
   "RootNamespace": "etapa_3",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\ItemAdicionadoAoCarrinho.cshtml",
-      "TargetPath": "Views\\Home\\ItemAdicionadoAoCarrinho.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\FaleConosco.cshtml",
-      "TargetPath": "Views\\Home\\FaleConosco.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\carrinho.cshtml",
-      "TargetPath": "Views\\Home\\carrinho.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\Produtos.cshtml",
-      "TargetPath": "Views\\Home\\Produtos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\ListagemFormulario.cshtml",
-      "TargetPath": "Views\\Home\\ListagemFormulario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Usuario\\Login.cshtml",
-      "TargetPath": "Views\\Usuario\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\camisaDetalheOakley.cshtml",
-      "TargetPath": "Views\\Home\\camisaDetalheOakley.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\produtoDetalheQuik.cshtml",
-      "TargetPath": "Views\\Home\\produtoDetalheQuik.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Usuario\\Lista.cshtml",
-      "TargetPath": "Views\\Usuario\\Lista.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\produtoDetalheAdidas.cshtml",
-      "TargetPath": "Views\\Home\\produtoDetalheAdidas.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\produtoDetalheNike.cshtml",
-      "TargetPath": "Views\\Home\\produtoDetalheNike.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Usuario\\Cadastro.cshtml",
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Usuario\\Cadastro.cshtml",
       "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\Concluido.cshtml",
-      "TargetPath": "Views\\Home\\Concluido.cshtml",
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\ListagemFormulario.cshtml",
+      "TargetPath": "Views\\Home\\ListagemFormulario.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Usuario\\Login.cshtml",
+      "TargetPath": "Views\\Usuario\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\produtoDetalheQuik.cshtml",
+      "TargetPath": "Views\\Home\\produtoDetalheQuik.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\etapa 3\\Views\\Home\\itemadicionado.cshtml",
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\produtoDetalheNike.cshtml",
+      "TargetPath": "Views\\Home\\produtoDetalheNike.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\Produtos.cshtml",
+      "TargetPath": "Views\\Home\\Produtos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Usuario\\Lista.cshtml",
+      "TargetPath": "Views\\Usuario\\Lista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\camisaDetalheOakley.cshtml",
+      "TargetPath": "Views\\Home\\camisaDetalheOakley.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\Concluido.cshtml",
+      "TargetPath": "Views\\Home\\Concluido.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\ItemAdicionadoAoCarrinho.cshtml",
+      "TargetPath": "Views\\Home\\ItemAdicionadoAoCarrinho.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\FaleConosco.cshtml",
+      "TargetPath": "Views\\Home\\FaleConosco.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\carrinho.cshtml",
+      "TargetPath": "Views\\Home\\carrinho.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\itemadicionado.cshtml",
       "TargetPath": "Views\\Home\\itemadicionado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Fabrício\\Documents\\repositorio local git\\Loja-de-roupas\\Views\\Home\\produtoDetalheAdidas.cshtml",
+      "TargetPath": "Views\\Home\\produtoDetalheAdidas.cshtml",
       "FileKind": "mvc"
     }
   ],

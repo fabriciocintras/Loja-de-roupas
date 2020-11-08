@@ -77,8 +77,9 @@ html,body{
         display: flex;
         width: 100%;
         height: 100vh;
-        background: #000;
-        top: 0;left: 0;
+        background: #2D1E2F;
+        top: 0;
+        left: 0;
         position: fixed;
         z-index: 10;
         transform: translate3d(-100%, 0, 0);
@@ -87,7 +88,14 @@ html,body{
     #menuResponsivo.show{
         transform: translate3d(0px,0,0);
     }
-    
+    .btnMenu{
+        width: 40px;
+        background: transparent;
+        border: none;
+    }
+    .btnMenu img{
+        width: 40px;
+    }
     #menuResponsivo ul{
         display: flex;
         width: 100%;
@@ -101,6 +109,12 @@ html,body{
     }
     #abrirMenu{
         display: inline;
+    }
+    .contextSession{
+        color: white;
+    }
+    #sairMenu{
+        background: transparent;border: none;
     }
 }
 
